@@ -15,9 +15,10 @@
 
 pragma solidity >=0.4.22 <0.6;
 
-contract WETH9 {
-    string public name     = "Wrapped Ether";
-    string public symbol   = "WETH";
+// forked WETH9 from https://github.com/gnosis/canonical-weth/blob/master/contracts/WETH9.sol
+contract WDMT {
+    string public name     = "Wrapped DMT";
+    string public symbol   = "WDMT";
     uint8  public decimals = 18;
 
     event  Approval(address indexed src, address indexed guy, uint wad);

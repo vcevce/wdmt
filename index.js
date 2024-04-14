@@ -1,5 +1,5 @@
 module.exports = {
-  contractName: "WETH9",
+  contractName: "WDMT",
   abi: [
     {
       constant: true,
